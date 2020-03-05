@@ -1,0 +1,40 @@
+name: digisign
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.5.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^8.5.0
+  curved_navigation_bar: ^0.3.2
+  custom_navigator: ^0.3.0
+  datetime_picker_formfield: ^1.0.0
+  intl: ^0.16.1
+  http: 
+  barcode_scan:
+  shared_preferences: ^0.5.2 
+  # flutter_barcode_scanner: 
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+
+  fonts:
+    - family: Monotype Corsiva
+      fonts:
+        - asset: assets/fonts/Monotype-Corsiva.ttf
+    - family: Palatino Linotype
+      fonts:
+        - asset: assets/fonts/Palatino-Linotype.ttf
